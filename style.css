@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #202124;
+    font-family: Google Sans,arial,sans-serif;
+    width: 100%;
+}
+.nav {
+    height: 70px;
+    width: 100%;
+    background-color: #202124;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .1) ;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.nav-image {
+    width: 7%;
+    height: 50px;
+    margin:20px 0 0 50px;
+}
+
+.input {
+    position: relative;
+    top: 10px;
+    width: 750px;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: #303134;
+    border: none;
+    margin-left: 35px;
+}
+.links {
+    margin:20px 0 0 180px;
+}
+.links a {
+    text-decoration: none;
+    color: #969ba1;
+    font-weight: 500;
+    opacity: 0.7;
+    font-size: 1rem;
+    padding-left: 40px;
+    font-family: Google Sans,arial,sans-serif;
+}
+hr {
+    margin-top: 50px;
+    border: 0.5px solid gray;
+    opacity: 0.2;
+}
+.number {
+    color: #9aa0a6;
+    font-size: 0.9rem;
+    margin:10px 0 0 200px;
+    opacity: 0.7;
+}
+h1 {
+    font-size: 1.8rem;
+    color: rgb(236, 234, 234);
+    margin:30px 0 0 200px;
+}
+.first-span {
+    font-size: 0.8rem;
+    color: rgb(236, 234, 234);
+}
+.overview {
+    background-color: #613B28;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    width: 85px;
+    margin-top: 50px;
+}
+.first-section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.second-section {
+    width:80%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(17, 16, 16), #3a1e0f, black );
+    margin: 30px 0 0 150px;
+  
+}
+.first-image {
+    height: 250px;
+    width: 400px;
+    background-color: red;
+    margin-top: 30px;
+   
+}
+#image-div-one {
+    display: flex;
+    flex-direction: row;
+}
+.img-one {
+    background-color: blue;
+    height: 200px;
+    width: 250px;
+    margin-left: 50px;
+}
+.img-two {
+    background-color: green;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.upperimg {
+    background-color: purple;
+    height: 100px;
+    width: 250px;
+}
+
+/* THIRD SECTION */
+
+.third-section {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin:50px 0 0 200px;
+}
+.third-section h2 {
+    color: #9aa0a6;
+   padding-bottom: 20px;
+}
+.third-section-left {
+    /* background-color: green; */
+    width: 50%;
+    height: 400px;
+}
+.third-section-right {
+   border-left: 1px solid gray;
+    width: 30%;
+    height: 1400px;
+}
+.border {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.breaks1 {
+   width: 50%;
+   height: 300px;
+   border-right: 1px solid gray;
+   margin-top: 25px;
+}
+.breaks2 {
+    width: 50%;
+    height: 300px;
+    margin: 25px 0 0 10px;
+ }
+ .breaks1-child1 {
+    border-bottom: 1px solid gray;
+    height: 150px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+ }
+ .breaks1-child2 {
+    height: 150px;
+    width: 95%;
+ }
+ .third-section h5 {
+ color: #9aa0a6;
+ margin: -10px 0 0 50px;
+ }
+ .breaks-paragraph {
+    line-height: 1.5;
+    padding: 10px 0;
+ }
+ .time {
+    color: #969ba1;
+    font-size: 0.8rem;
+    margin-left: 80px;
+ }
+.morenews {
+    background-color: #303134;
+    height: 40px;
+    width: 300px;
+    border-radius: 200px;
+    padding: 10px;
+    text-align: center;
+    color: #969ba1;
+    position: relative;
+    bottom: 20px;
+    left: 25%;
+}
+#header {
+ margin-top: 15px;
+}
+.times {
+    color: #969ba1;
+    font-size: 0.8rem;
+ }
+ #header2 {
+    margin-top: -12px;
+ }
+
+/* MAIN SEARCH HERE */
+.main-search {
+    margin-top: 30px;
+}
+.main-searchp{
+    color: #969ba1;
+    font-size: 0.9rem;
+}
+.ronaldo {
+    font-size: 1.2rem;
+    padding-top: 10px;
+}
+.about-ronaldo {
+    color: #9aa0a6;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    padding: 10px 0;
+}
+.life {
+    font-size: 0.8rem;
+}
+.people-ask {
+    margin-top: 40px;
+}
+.dropdown {
+    width: 100%;
+    height: 42px;
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+    color: #9aa0a6;
+}
+.videos-div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+    color: #9aa0a6;  
+}
+.videos {
+    margin-top: 40px;
+}
+.twitter-div-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 30px;
+    overflow-x: scroll;
+}
+.twitter-div {
+    height: 300px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    object-fit: contain;
+}
+/* .twitter-di {
+    height: 300px;
+    width: 35%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    object-fit: contain;
+} */
+.twitter-child {
+    width: 80%;
+    height: 100px;
+    margin-left: 20px;
+}
+.my-profile {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+}
+.image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0;
+}
+.my-profile p {
+    font-size: 0.8rem;
+    padding-top: 12px;
+    color: #9aa0a6;
+}
+.reference {
+    padding-top: 70px;
+    color: #9aa0a6;
+}
+.ref-time {
+    font-size: 0.8rem;
+}
+.my-profile img {
+    border-radius: 50%;
+    width: 100%;
+}
+.strikers-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 30px;
+}
+.portugal {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 5px;
+}
+#image-div {
+    height: 60px;
+    margin-top: 50px;
+}
+
+.search-div-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+}
+.search-divs {
+    width: 50%;
+    height: 50px;
+    background-color: #303134;
+    border-radius: 200px;
+    display: flex;
+}
+.search-divs img {
+    position: relative;
+    width: 5%;
+    opacity: 0.5;
+    left: 20px;
+    align-self: center;
+}
+.search-divs p {
+   align-self: center;
+    text-align: center;
+    padding-left: 40px;
+    color: #9aa0a6;
+}
+.search-divs p a {
+    color: #9aa0a6;
+}
+.numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 200px;
+    margin-top: 50px;
+}
+.numbers a {
+    padding: 5px;
+}
+.numbers a:hover {
+    text-decoration: underline;
+}
+
+/* THIRD SECTION RIGHT DIV STYLING */
+
+ .third-section-right h3 {
+    color: #9aa0a6;
+    margin-left: 20px;
+ }
+ .third-section-right button {
+    border-radius: 200px;
+    padding: 5px;
+    background-color: transparent;
+    width: 200px;
+    margin: 20px 0 0 20px;
+    border: 1px solid gray;
+ }
+ .third-section-right button a {
+    color: #9aa0a6;
+    font-weight: bold;
+ }
+ .third-section-right p {
+    color: #9aa0a6;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin-left: 20px;
+    padding-top: 20px;
+ }
+ .third-section a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+ }
+ .feedback {
+    font-size: 0.8rem;
+    padding-left: 50px;
+ }
+ .third-section hr {
+    margin: 10px 0 0 20px;
+ }
+ #people-search {
+    font-size: 1rem;
+    margin-left: 20px;
+ }
+ #people-searches {
+    margin: 20px 0 -40px 20px;
+    font-size: 1rem;
+ }
+ #strikers-container {
+    margin-top: 0;
+    margin-left: 20px;
+ }
+ #morenews  {
+    width: 100%;
+    margin-left: 20px;
+ }
+ .stats {
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    margin-left: 20px;
+ }
+
+ /* FOOTER STYLING STARTS HERE */
+ footer {
+    width: 100%;
+    background-color: #1b1c1e;
+    height: 100px;
+    position: relative;
+    top: 2270px;
+ }
+ footer hr {
+    margin-top: 0;
+ }
+ .footer-div-one {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    height: 50px;
+    width: 90%;
+ }
+ .footer-div-one p {
+    padding-top: 20px;
+    color: #9aa0a6;
+ }
+ .footer-div-one a {
+ color: blue;
+ text-decoration: none;
+ }
+ .footer-a {
+margin-left: 190px;
+margin-top: 10px;
+ }
+ .footer-a a {
+    color: #9aa0a6;
+text-decoration: none;
+padding: 10px;
+ }
